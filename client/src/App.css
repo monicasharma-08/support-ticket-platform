@@ -1,0 +1,25 @@
+/* App.css - Minimal styles (most styling done with Tailwind) */
+
+/* Optional: Add custom animations if needed */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* You can add component-specific styles here if needed */
+/* Otherwise, use Tailwind utility classes in your JSX */
